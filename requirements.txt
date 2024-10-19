@@ -51,6 +51,6 @@ tqdm==4.66.5
 transformers==4.45.2
 typing_extensions==4.9.0
 tzdata==2024.2
-urllib3==2.0.8
+urllib3==1.26.16
 uvicorn==0.32.0
 win-inet-pton==1.1.0
