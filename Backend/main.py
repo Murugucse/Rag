@@ -3,6 +3,8 @@ from pydantic import BaseModel
 from fastapi.staticfiles import StaticFiles
 from rag_system import RAGSystem
 from fastapi.responses import JSONResponse
+from Backend.rag_system import RAGSystem
+
 
 # Initialize the FastAPI app
 app = FastAPI()
