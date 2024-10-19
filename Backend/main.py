@@ -9,7 +9,7 @@ from Backend.rag_system import RAGSystem
 app = FastAPI()
 
 # Serve static files (HTML, CSS, JS) from the "static" directory
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("Frontend/static", StaticFiles(directory="static"), name="static")
 
 # Initialize the RAG system (for processing queries and generating results)
 rag_system = RAGSystem()
